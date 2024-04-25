@@ -15,7 +15,7 @@ const cn = {
     Tips: "管理员开启了密码验证，请在下方填入访问码",
     SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
     Input: "在此处填写访问码",
-    Confirm: "确认",
+    Confirm: "登陆",
     Later: "稍后再说",
   },
   ChatItem: {
@@ -63,7 +63,6 @@ const cn = {
       Masks: "所有面具",
       Clear: "清除聊天",
       Settings: "对话设置",
-      UploadImage: "上传图片",
     },
     Rename: "重命名对话",
     Typing: "正在输入…",
@@ -313,27 +312,11 @@ const cn = {
           SubTitle: "选择指定的部分版本",
         },
       },
-      Anthropic: {
-        ApiKey: {
-          Title: "接口密钥",
-          SubTitle: "使用自定义 Anthropic Key 绕过密码访问限制",
-          Placeholder: "Anthropic API Key",
-        },
-
-        Endpoint: {
-          Title: "接口地址",
-          SubTitle: "样例：",
-        },
-
-        ApiVerion: {
-          Title: "接口版本 (claude api version)",
-          SubTitle: "选择一个特定的 API 版本输入",
-        },
-      },
       Google: {
         ApiKey: {
           Title: "API 密钥",
-          SubTitle: "从 Google AI 获取您的 API 密钥",
+          SubTitle:
+            "从 Google AI 获取您的 API 密钥",
           Placeholder: "输入您的 Google AI Studio API 密钥",
         },
 
